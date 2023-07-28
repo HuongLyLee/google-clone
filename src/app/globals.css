@@ -16,7 +16,9 @@
   }
 }
 
-body {
+html, body {
+  /* height: calc(100% - 100px); */
+  height: 100%;
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
       to bottom,
